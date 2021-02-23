@@ -1,6 +1,6 @@
-var isSquare = function(n){
+var isSquare = function (n) {
     let squareRoot = Math.sqrt(n)
     let isInteger = Number.isInteger(squareRoot)
     return isInteger;
 }
-console.log(isSquare(10))
+
