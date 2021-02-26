@@ -8,6 +8,6 @@ const binary = (a, b) => {
         sum /= 2
         i=0
     }
-    return (array.join(""))
+    return (array.reverse().join(""))
 }
 binary(120, 4)
